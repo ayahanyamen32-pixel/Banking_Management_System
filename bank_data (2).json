@@ -1,0 +1,124 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Mohamed",
+            "password": "1234",
+            "phone": "01011112222",
+            "email": "mohamed@gmail.com",
+            "gender": "male",
+            "age": 22,
+            "city": "Cairo",
+            "account_type": "VIP",
+            "wallet": {
+                "balance": 6000.0
+            },
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 5000.0,
+                    "currency": "EGP",
+                    "date": "2026-01-01 10:00"
+                }
+            ],
+            "settings": {
+                "emergency_contact": null
+            }
+        },
+        {
+            "id": 2,
+            "name": "Ashrakat",
+            "password": "0123",
+            "phone": "01122223333",
+            "email": "ashrakat@gmail.com",
+            "gender": "female",
+            "age": 25,
+            "city": "Alexandria",
+            "account_type": "normal",
+            "wallet": {
+                "balance": 3000.0
+            },
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 3000.0,
+                    "currency": "EGP",
+                    "date": "2026-01-02 11:00"
+                }
+            ],
+            "settings": {
+                "emergency_contact": null
+            }
+        },
+        {
+            "id": 3,
+            "name": "Aya",
+            "password": "1299",
+            "phone": "01233334444",
+            "email": "aya@gmail.com",
+            "gender": "female",
+            "age": 30,
+            "city": "Giza",
+            "account_type": "VIP",
+            "wallet": {
+                "balance": 10000.0
+            },
+            "transactions": [
+                {
+                    "type": "deposit",
+                    "amount": 10000.0,
+                    "currency": "EGP",
+                    "date": "2026-01-03 09:30"
+                }
+            ],
+            "settings": {
+                "emergency_contact": null
+            }
+        },
+        {
+            "id": 4,
+            "name": "ali",
+            "password": "4321",
+            "phone": "01005892005",
+            "email": "ali@gmail.com",
+            "gender": "male",
+            "age": 19,
+            "city": "elshoda",
+            "account_type": "VIP",
+            "wallet": {
+                "balance": 1000.0
+            },
+            "transactions": [],
+            "settings": {
+                "emergency_contact": null
+            }
+        }
+    ],
+    "next_id": 5,
+    "atm": [
+        [
+            1,
+            0,
+            1,
+            1
+        ],
+        [
+            1,
+            1,
+            0,
+            1
+        ],
+        [
+            0,
+            1,
+            1,
+            0
+        ],
+        [
+            1,
+            0,
+            1,
+            1
+        ]
+    ]
+}
